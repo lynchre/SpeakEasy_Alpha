@@ -18,6 +18,7 @@ var langArray = [
     "at",
     "be",
     "because",
+    "brad",
     "but",
     "by",
     "can",
