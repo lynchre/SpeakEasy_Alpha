@@ -1,4 +1,4 @@
-First clone the github repository.
+First, clone the github repository.
 
 Then navigate to the directory OpenEarsSampleAppSwift.
 
