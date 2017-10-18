@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121449001F91309000320BEF /* wordlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121448FF1F91309000320BEF /* wordlist.swift */; };
+		129D7D2D1F8E729200D67D6A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129D7D2C1F8E729200D67D6A /* AVFoundation.framework */; };
+		129D7D2F1F8E729700D67D6A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129D7D2E1F8E729700D67D6A /* AudioToolbox.framework */; };
+		8C48E2741DB24659006A755E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48E2731DB24659006A755E /* AppDelegate.swift */; };
+		8C48E2761DB24659006A755E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48E2751DB24659006A755E /* ViewController.swift */; };
+		8C48E27B1DB24659006A755E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C48E27A1DB24659006A755E /* Assets.xcassets */; };
+		8C48E2891DB24659006A755E /* OpenEarsSampleAppSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C48E2881DB24659006A755E /* OpenEarsSampleAppSwiftTests.swift */; };
+		8C48E2981DB24A07006A755E /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8C48E2951DB24A07006A755E /* AcousticModelEnglish.bundle */; };
+		8C48E2991DB24A07006A755E /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48E2961DB24A07006A755E /* OpenEars.framework */; };
+		8C48E29A1DB24A07006A755E /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C48E2971DB24A07006A755E /* Slt.framework */; };
+		8CDDF1441DB25F32001F67E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDDF1401DB25F32001F67E9 /* LaunchScreen.storyboard */; };
+		8CDDF1451DB25F32001F67E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CDDF1421DB25F32001F67E9 /* Main.storyboard */; };
+		9656E5711F92E8FF0058402F /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9656E5701F92E8FF0058402F /* Setting.swift */; };
+		9656E5731F92E9F90058402F /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9656E5721F92E9F90058402F /* SettingTableViewCell.swift */; };
+		9656E57A1F92F1C80058402F /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9656E5791F92F1C80058402F /* SettingTableViewController.swift */; };
+		96C13BD91F93F3E7002DA519 /* FontSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C13BD81F93F3E7002DA519 /* FontSizeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C48E2851DB24659006A755E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C48E2681DB24659006A755E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C48E26F1DB24659006A755E;
+			remoteInfo = OpenEarsSampleAppSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121448FF1F91309000320BEF /* wordlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordlist.swift; sourceTree = "<group>"; };
+		129D7D2C1F8E729200D67D6A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		129D7D2E1F8E729700D67D6A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8C48E2701DB24659006A755E /* OpenEarsSampleAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenEarsSampleAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C48E2731DB24659006A755E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C48E2751DB24659006A755E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C48E27A1DB24659006A755E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C48E27F1DB24659006A755E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C48E2841DB24659006A755E /* OpenEarsSampleAppSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenEarsSampleAppSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C48E2881DB24659006A755E /* OpenEarsSampleAppSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenEarsSampleAppSwiftTests.swift; sourceTree = "<group>"; };
+		8C48E28A1DB24659006A755E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C48E2931DB2473B006A755E /* OpenEarsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenEarsHeader.h; sourceTree = "<group>"; };
+		8C48E2951DB24A07006A755E /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		8C48E2961DB24A07006A755E /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		8C48E2971DB24A07006A755E /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		8CDDF1411DB25F32001F67E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CDDF1431DB25F32001F67E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9656E5701F92E8FF0058402F /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		9656E5721F92E9F90058402F /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		9656E5791F92F1C80058402F /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		96C13BD81F93F3E7002DA519 /* FontSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FontSizeViewController.swift; path = ../FontSizeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C48E26D1DB24659006A755E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129D7D2F1F8E729700D67D6A /* AudioToolbox.framework in Frameworks */,
+				129D7D2D1F8E729200D67D6A /* AVFoundation.framework in Frameworks */,
+				8C48E29A1DB24A07006A755E /* Slt.framework in Frameworks */,
+				8C48E2991DB24A07006A755E /* OpenEars.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48E2811DB24659006A755E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129D7D2B1F8E729100D67D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				129D7D2E1F8E729700D67D6A /* AudioToolbox.framework */,
+				129D7D2C1F8E729200D67D6A /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C48E2671DB24659006A755E = {
+			isa = PBXGroup;
+			children = (
+				8C48E2941DB24A07006A755E /* Framework */,
+				8C48E2721DB24659006A755E /* OpenEarsSampleAppSwift */,
+				8C48E2871DB24659006A755E /* OpenEarsSampleAppSwiftTests */,
+				8C48E2711DB24659006A755E /* Products */,
+				129D7D2B1F8E729100D67D6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C48E2711DB24659006A755E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C48E2701DB24659006A755E /* OpenEarsSampleAppSwift.app */,
+				8C48E2841DB24659006A755E /* OpenEarsSampleAppSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C48E2721DB24659006A755E /* OpenEarsSampleAppSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8C48E2731DB24659006A755E /* AppDelegate.swift */,
+				8C48E2751DB24659006A755E /* ViewController.swift */,
+				8C48E2931DB2473B006A755E /* OpenEarsHeader.h */,
+				8C48E27A1DB24659006A755E /* Assets.xcassets */,
+				96C13BD81F93F3E7002DA519 /* FontSizeViewController.swift */,
+				8C48E27F1DB24659006A755E /* Info.plist */,
+				8CDDF1401DB25F32001F67E9 /* LaunchScreen.storyboard */,
+				8CDDF1421DB25F32001F67E9 /* Main.storyboard */,
+				9656E5791F92F1C80058402F /* SettingTableViewController.swift */,
+				9656E5721F92E9F90058402F /* SettingTableViewCell.swift */,
+				9656E5701F92E8FF0058402F /* Setting.swift */,
+				121448FF1F91309000320BEF /* wordlist.swift */,
+			);
+			path = OpenEarsSampleAppSwift;
+			sourceTree = "<group>";
+		};
+		8C48E2871DB24659006A755E /* OpenEarsSampleAppSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C48E2881DB24659006A755E /* OpenEarsSampleAppSwiftTests.swift */,
+				8C48E28A1DB24659006A755E /* Info.plist */,
+			);
+			path = OpenEarsSampleAppSwiftTests;
+			sourceTree = "<group>";
+		};
+		8C48E2941DB24A07006A755E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8C48E2951DB24A07006A755E /* AcousticModelEnglish.bundle */,
+				8C48E2961DB24A07006A755E /* OpenEars.framework */,
+				8C48E2971DB24A07006A755E /* Slt.framework */,
+			);
+			name = Framework;
+			path = ../Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C48E26F1DB24659006A755E /* OpenEarsSampleAppSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C48E28D1DB24659006A755E /* Build configuration list for PBXNativeTarget "OpenEarsSampleAppSwift" */;
+			buildPhases = (
+				8C48E26C1DB24659006A755E /* Sources */,
+				8C48E26D1DB24659006A755E /* Frameworks */,
+				8C48E26E1DB24659006A755E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenEarsSampleAppSwift;
+			productName = OpenEarsSampleAppSwift;
+			productReference = 8C48E2701DB24659006A755E /* OpenEarsSampleAppSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C48E2831DB24659006A755E /* OpenEarsSampleAppSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C48E2901DB24659006A755E /* Build configuration list for PBXNativeTarget "OpenEarsSampleAppSwiftTests" */;
+			buildPhases = (
+				8C48E2801DB24659006A755E /* Sources */,
+				8C48E2811DB24659006A755E /* Frameworks */,
+				8C48E2821DB24659006A755E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C48E2861DB24659006A755E /* PBXTargetDependency */,
+			);
+			name = OpenEarsSampleAppSwiftTests;
+			productName = OpenEarsSampleAppSwiftTests;
+			productReference = 8C48E2841DB24659006A755E /* OpenEarsSampleAppSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C48E2681DB24659006A755E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Politepix;
+				TargetAttributes = {
+					8C48E26F1DB24659006A755E = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 635Z7EC879;
+						LastSwiftMigration = 0810;
+					};
+					8C48E2831DB24659006A755E = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0810;
+						TestTargetID = 8C48E26F1DB24659006A755E;
+					};
+				};
+			};
+			buildConfigurationList = 8C48E26B1DB24659006A755E /* Build configuration list for PBXProject "OpenEarsSampleAppSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C48E2671DB24659006A755E;
+			productRefGroup = 8C48E2711DB24659006A755E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C48E26F1DB24659006A755E /* OpenEarsSampleAppSwift */,
+				8C48E2831DB24659006A755E /* OpenEarsSampleAppSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C48E26E1DB24659006A755E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C48E2981DB24A07006A755E /* AcousticModelEnglish.bundle in Resources */,
+				8C48E27B1DB24659006A755E /* Assets.xcassets in Resources */,
+				8CDDF1451DB25F32001F67E9 /* Main.storyboard in Resources */,
+				8CDDF1441DB25F32001F67E9 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48E2821DB24659006A755E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C48E26C1DB24659006A755E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9656E57A1F92F1C80058402F /* SettingTableViewController.swift in Sources */,
+				121449001F91309000320BEF /* wordlist.swift in Sources */,
+				9656E5731F92E9F90058402F /* SettingTableViewCell.swift in Sources */,
+				8C48E2761DB24659006A755E /* ViewController.swift in Sources */,
+				9656E5711F92E8FF0058402F /* Setting.swift in Sources */,
+				96C13BD91F93F3E7002DA519 /* FontSizeViewController.swift in Sources */,
+				8C48E2741DB24659006A755E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C48E2801DB24659006A755E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C48E2891DB24659006A755E /* OpenEarsSampleAppSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C48E2861DB24659006A755E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C48E26F1DB24659006A755E /* OpenEarsSampleAppSwift */;
+			targetProxy = 8C48E2851DB24659006A755E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CDDF1401DB25F32001F67E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CDDF1411DB25F32001F67E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8CDDF1421DB25F32001F67E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CDDF1431DB25F32001F67E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C48E28B1DB24659006A755E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C48E28C1DB24659006A755E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C48E28E1DB24659006A755E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 635Z7EC879;
+				FRAMEWORK_SEARCH_PATHS = "\"$(PROJECT_DIR)/../Framework/\"";
+				INFOPLIST_FILE = OpenEarsSampleAppSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EECS-498.SpeakEasy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ../OpenEarsSampleAppSwift/OpenEarsSampleAppSwift/OpenEarsHeader.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8C48E28F1DB24659006A755E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 635Z7EC879;
+				FRAMEWORK_SEARCH_PATHS = "\"$(PROJECT_DIR)/../Framework/\"";
+				INFOPLIST_FILE = OpenEarsSampleAppSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "EECS-498.SpeakEasy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ../OpenEarsSampleAppSwift/OpenEarsSampleAppSwift/OpenEarsHeader.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8C48E2911DB24659006A755E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenEarsSampleAppSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.politepix.OpenEarsSampleAppSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenEarsSampleAppSwift.app/OpenEarsSampleAppSwift";
+			};
+			name = Debug;
+		};
+		8C48E2921DB24659006A755E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenEarsSampleAppSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.politepix.OpenEarsSampleAppSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenEarsSampleAppSwift.app/OpenEarsSampleAppSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C48E26B1DB24659006A755E /* Build configuration list for PBXProject "OpenEarsSampleAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C48E28B1DB24659006A755E /* Debug */,
+				8C48E28C1DB24659006A755E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C48E28D1DB24659006A755E /* Build configuration list for PBXNativeTarget "OpenEarsSampleAppSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C48E28E1DB24659006A755E /* Debug */,
+				8C48E28F1DB24659006A755E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C48E2901DB24659006A755E /* Build configuration list for PBXNativeTarget "OpenEarsSampleAppSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C48E2911DB24659006A755E /* Debug */,
+				8C48E2921DB24659006A755E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C48E2681DB24659006A755E /* Project object */;
+}
